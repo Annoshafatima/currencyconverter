@@ -1,4 +1,4 @@
-import 'package:currencyconverter/currencyconverter.dart';
+
 import 'package:flutter/material.dart';
 
 import 'currency.dart';
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
